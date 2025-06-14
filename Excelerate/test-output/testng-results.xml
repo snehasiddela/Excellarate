@@ -2,30 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
       <![CDATA[Closebrowser Successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-06-14T12:32:55 IST" name="Default suite" finished-at="2025-06-14T12:33:52 IST" duration-ms="56477">
+  <suite started-at="2025-06-14T16:00:30 IST" name="Default suite" finished-at="2025-06-14T16:00:45 IST" duration-ms="15391">
     <groups>
     </groups>
-    <test started-at="2025-06-14T12:32:55 IST" name="Default test" finished-at="2025-06-14T12:33:52 IST" duration-ms="56477">
-      <class name="ProductTest.Signup">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:ProductTest.Signup@2e385cce]" started-at="2025-06-14T12:32:55 IST" name="browserSetup" finished-at="2025-06-14T12:33:30 IST" duration-ms="35353" status="PASS">
+    <test started-at="2025-06-14T16:00:30 IST" name="Default test" finished-at="2025-06-14T16:00:45 IST" duration-ms="15391">
+      <class name="ProductTest.Login">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:ProductTest.Login@2e385cce]" started-at="2025-06-14T16:00:30 IST" name="browserSetup" finished-at="2025-06-14T16:00:38 IST" duration-ms="8526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="signup()[pri:0, instance:ProductTest.Signup@2e385cce]" started-at="2025-06-14T12:33:30 IST" name="signup" finished-at="2025-06-14T12:33:51 IST" duration-ms="20564" status="PASS">
+        <test-method signature="userlogin()[pri:0, instance:ProductTest.Login@2e385cce]" started-at="2025-06-14T16:00:38 IST" name="userlogin" finished-at="2025-06-14T16:00:44 IST" duration-ms="6130" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- signup -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:ProductTest.Signup@2e385cce]" started-at="2025-06-14T12:33:51 IST" name="closebrowser" finished-at="2025-06-14T12:33:52 IST" duration-ms="513" status="PASS">
+        </test-method> <!-- userlogin -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:ProductTest.Login@2e385cce]" started-at="2025-06-14T16:00:44 IST" name="closebrowser" finished-at="2025-06-14T16:00:45 IST" duration-ms="690" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closebrowser Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-      </class> <!-- ProductTest.Signup -->
+      </class> <!-- ProductTest.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
