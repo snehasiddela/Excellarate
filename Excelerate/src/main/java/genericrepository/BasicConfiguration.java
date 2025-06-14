@@ -69,7 +69,7 @@ public class BasicConfiguration {
 
 	@AfterClass
 	public void closebrowser() {
-		driver.quit();
+		//driver.quit();
 		Reporter.log("Closebrowser Successfully", true);
 
 	}
