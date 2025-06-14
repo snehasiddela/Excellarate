@@ -19,6 +19,35 @@ public class ChangePassword {
 	@FindBy(xpath="(//ul[@class='header links'])[1]")
 	private WebElement Myaccount1;
 	
+	@FindBy(xpath="(//a[text()='My Account'])[1]")
+	private WebElement Myaccountoptions;
+	
+	
+	
+	@FindBy(xpath="//a[contains(text(),' Change Password ')]")
+	private WebElement changepasswordlink;
+	
+	@FindBy(xpath="//span[text()='Edit Account Information']")
+	private WebElement Editinformationtext;
+	
+	@FindBy(xpath="//input[@id='current-password']")
+	private WebElement currentpassword;
+	
+	
+	@FindBy(xpath="//input[@id='password']")
+	private WebElement newpassword;
+	
+	@FindBy(xpath="//input[@id='password-confirmation']")
+	private WebElement confirmpassword;
+	
+	@FindBy(xpath="//span[text()='Save']")
+	private WebElement save;
+	@FindBy(xpath="//span[text()=\"My Account\"]")
+	private WebElement MyAccount;
+	
+	
+	
+	
 	public 	ChangePassword(WebDriver driver)
 	{
 		PageFactory.initElements(driver,this);
@@ -34,6 +63,31 @@ public class ChangePassword {
 	}
 	public WebElement getMyaccount1() {
 		return Myaccount1;
+	}
+	public WebElement getMyaccountoptions() {
+		return Myaccountoptions;
+	}
+	public WebElement getchangepasswordlink() {
+		return changepasswordlink;
+	}
+	public WebElement getEditinformationtext() {
+		return Editinformationtext;
+	}
+	public WebElement getCurrentpassword() {
+		return currentpassword;
+	}
+	
+	public WebElement getNewpassword() {
+		return newpassword;
+	}
+	public WebElement getConfirmpassword() {
+		return confirmpassword;
+	}
+	public WebElement getSave() {
+		return save;
+	}
+	public WebElement getMyAccount() {
+		return MyAccount;
 	}
 	
 
